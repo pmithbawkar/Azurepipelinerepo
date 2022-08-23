@@ -19,6 +19,7 @@ steps:
     location: 'East US'
     templateLocation: 'URL of the file'
     csmFileLink: 'https://raw.githubusercontent.com/pmithbawkar/Azurepipelinerepo/main/azuredeploy.json'
+    overrideParameters: '-projectName Azurepipelinerepo'
     deploymentMode: 'Incremental'
     deploymentName: 'DeployPipelineTemplate'
 
