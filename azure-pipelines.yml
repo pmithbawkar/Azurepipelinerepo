@@ -11,7 +11,7 @@ steps:
     azureResourceManagerConnection: 'Mango(40ef2aec-7a53-4376-ba68-76b93cbdbfdb)'
     subscriptionId: '40ef2aec-7a53-4376-ba68-76b93cbdbfdb'
     action: 'Create Or Update Resource Group'
-    resourceGroupName: 'AzureRmPipeline-rg'
+    resourceGroupName: 'HelloWorld'
     location: 'East US 2'
     templateLocation: 'URL of the file'
     csmFileLink: 'https://raw.githubusercontent.com/pmithbawkar/Azurepipelinerepo/main/azuredeploy.json'
